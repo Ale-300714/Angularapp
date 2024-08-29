@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'access',
+    loadChildren: () => import('./access/access.module').then( m => m.AccessPageModule)
+  },
 ];
 
 @NgModule({

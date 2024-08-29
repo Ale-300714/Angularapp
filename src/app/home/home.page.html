@@ -13,6 +13,24 @@
     </ion-toolbar>
   </ion-header>
 
+  <mat-slider>
+    <input matSliderThumb>
+  </mat-slider>ioni
+
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+
+  <p><mat-slide-toggle>Slide me!</mat-slide-toggle></p>
+  <p><mat-slide-toggle labelPosition="before">...and slide me too!</mat-slide-toggle></p>
+
+  <mat-radio-group aria-label="Select an option">
+    <mat-radio-button value="1">Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+  </mat-radio-group>
+      
   <div id="container">
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
