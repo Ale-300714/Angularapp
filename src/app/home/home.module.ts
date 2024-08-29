@@ -20,7 +20,8 @@ import {MatRadioModule} from '@angular/material/radio';
     MatSliderModule,
     MatMenuModule,
     MatSlideToggleModule,
-    MatRadioModule
+    MatRadioModule,
+    
   ],
   declarations: [HomePage]
 })
